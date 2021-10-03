@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/11a13880-89e9-409b-b39a-7cdfe78585aa/resourceGroups/jaeuk-website-rg/providers/Microsoft.Web/sites/jaeuk-website",
+    "appService.deploySubpath": "."
+}
