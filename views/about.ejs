@@ -1,33 +1,42 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <!-- <link rel='stylesheet' href='/stylesheets/style.css' /> -->
-    <link rel='stylesheet' href='/node_modules/bootstrap/dist/css/bootstrap.min.css' />
-  </head>
-  <body>
+<% include partials/header.ejs %>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <!-- Brand/logo -->
-      <a class="navbar-brand" href="#">
-        <img src="bird.jpg" alt="logo" style="width:40px;">
-      </a>
-      
-      <!-- Links -->
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 3</a>
-        </li>
-      </ul>
-    </nav>
+<!-- d. Your About Me Page should include your legal name, an image of you (I recommend a head
+and shoulders shot), a short paragraph about who you are. Keep this clean and simple as it
+may be viewed by perspective employers. (1 Mark: Content)
+e. Your About Me page should include a link to a PDF version of your Resume (1 Mark:
+Content). -->
+
+<div id='about' class='content'>
+    <div id='about_left'>
+        <img id='my_pic' src="images/profile.jpg"><br>
+        <p id="title">
+            <b>Jaeuk Kim </b><br>
+            The Software Architect for you</br>
+        </p>
+    </div>
+
+    <div id='about_rigft'>
+        "Hi! Welcome to my website!!! <br><br>
+        <div id='profile'>                    
+            My name is Jaeuk but friends call Jack <br>
+            as a short or nickname <br><br>
+            
+            I am a software engineer specialzed in web development. <br>
+            I study Software Engineering (Aritificial Inteligence) <br>
+            at Centennial College.<br><br>
     
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+            I am also an expert in education field and teaching.<br>    
+            I love draw a big picture of things,<br> 
+            oragnize people and system.<br><br>
+            
+            I have worked as an organiser <br>
+            for several soccial meetups for many years! <br>            
+        </div>
+        <br><br>
+        <a href="files/Test_Resume.docx"><button>Resume</button></a>
+    </div>
+
+    <!-- <a href="" -->
+</div>
+
+<% include partials/footer.ejs %>
