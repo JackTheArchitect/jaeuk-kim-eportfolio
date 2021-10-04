@@ -83,6 +83,13 @@ button {
   color: whitesmoke;
 }
 
+/* Projects Page */
+
+.project_img{
+  width: 400px;
+  height: 350px;
+}
+
 /* Services Page */
 .service{
   width: 250px;
@@ -106,7 +113,12 @@ button {
 #my_contact{
   background-color:darkslateblue;
   color: orange;
-  width: 50%;
+  width: 40%;
+}
+
+#submit{
+  margin-top: 20px;
+  margin-left: 10%;
 }
 
 
