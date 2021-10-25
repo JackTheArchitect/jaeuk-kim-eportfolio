@@ -31,7 +31,7 @@ module.exports.renderSignin = function(req, res, next) {
     });
   } else {
     console.log(req.user);
-    return res.redirect('/');
+    return res.redirect('/'); 
   }
 };
 
@@ -89,7 +89,7 @@ module.exports.signout = function(req, res, next) {
 
 module.exports.signin = function(req, res, next){
   passport.authenticate('local', {   
-    successRedirect: req.session.url || '/business_contact/list', // If the user is authenticated, he will be taken to the Business Contacts List View
+    successRedirect: req.session.url || '/inventory/list', // If the user is authenticated, he will be taken to the Business Contacts List View
     failureRedirect: '/users/signin',
     failureFlash: true
   })(req, res, next);
