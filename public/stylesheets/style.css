@@ -122,8 +122,46 @@ button {
 }
 
 
-/* a { 
-  color: #00B7FF;
-} */
+/* For Assignment2 - Business Contact List */
+
+#list-table{
+  background-color:whitesmoke;
+}
+
+#list-name{
+  color: goldenrod;
+  font-size:xx-large;
+}
+
+#list-number{
+  color:green;
+  font-size:xx-large;
+}
+
+#list-email{
+  color: skyblue;
+  font-size:xx-large;
+}
+
+#list-actions{
+  color:crimson;
+  font-size:xx-large;
+}
+
+.text-center{
+  color: black;
+  font-size: x-large;
+}
+
+/* For Assignment2 - Users & Signin section */
+
+.users, .signin, .signup {
+  color: white;
+}
+
+/* For Assignment2 - Sign up section */
+.offset-md-3 col-md-3{
+  color: white;
+}
 
 
