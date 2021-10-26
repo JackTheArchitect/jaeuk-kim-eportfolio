@@ -20,7 +20,6 @@ let dbURI = require('./db');
 mongoose.connect(dbURI.AtlasDB);
 
 // For Assignent2
-// Status?
 let mongoDB = mongoose.connection;
 mongoDB.on('error', console.error.bind(console, 'Connection Error:'));
 mongoDB.once('open', ()=>{
@@ -45,8 +44,7 @@ let projectsRouter = require('../routes/projects');
 let servicesRouter = require('../routes/services');
 let contactRouter = require('../routes/contact');
     // For Assignment2
-let inventoryRouter = require('../routes/inventory'); // Sample Code
-let businessContactRouter = require('../routes/businessContact');
+let inventoryRouter = require('../routes/inventory');
 let usersContactRouter = require('../routes/users');
 
 
@@ -79,8 +77,7 @@ app.use('/projects', projectsRouter);
 app.use('/services', servicesRouter);
 app.use('/contact', contactRouter);
 // For Assignemnt2
-app.use('/inventory', inventoryRouter); // Sample Code
-app.use('/business_contact', businessContactRouter);  // "/business" needs to be dealt with properly. Don't confuse!
+app.use('/inventory', inventoryRouter); 
 app.use('/users', usersContactRouter) // For users section
 
 

@@ -22,7 +22,7 @@ let UserSchema = mongoose.Schema(
                 return password && password.length > 6;
             }, 'Password should be longer']
         },
-        salt: { // 비밀번호 관련된거 같은데 모르겠다. 웅얼거리고 안들려
+        salt: { // for password encrypt
             type: String
         },
         provider: {
