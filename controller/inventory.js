@@ -1,15 +1,18 @@
 // create a reference to the model
 let Inventory = require('../models/inventory');
 
+
+
 module.exports.inventoryList = function(req, res, next) {  
     Inventory.find((err, inventoryList) => {
-        //console.log(inventoryList);
+        console.log(inventoryList);
         if(err)
         {
             return console.error(err);
         }
         else
         {
+               
             res.render('inventory/list', {
                 title: 'Contact List', 
                 InventoryList: inventoryList,

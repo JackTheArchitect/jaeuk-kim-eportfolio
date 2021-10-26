@@ -14,7 +14,7 @@
         </div>
 
         <div class="table-responsive">
-            <table class="table table-bordered table-striped table-hover">
+            <table id="list-table" class="table table-bordered table-striped table-hover">
                 <!-- Header Row-->
                 <tr>
                     <th class="text-center">Contact Name</th>
@@ -23,10 +23,9 @@
                     <th class="text-center" colspan="2">Actions</th>
                 </tr>
 
-                <!-- Repeatable Template Row -->
-
+                <!-- Repeatable Template Row -->                
                 <% for(let count = 0; count < InventoryList.length; count++) { %>
-                    <tr>
+                    <tr>                        
                         <td class="text-center"><%= InventoryList[count].item %></td>
                         <td class="text-center"><%= InventoryList[count].qty %></td>
                         <td class="text-center"><%= InventoryList[count].status %></td>

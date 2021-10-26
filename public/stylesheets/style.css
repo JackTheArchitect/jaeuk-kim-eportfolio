@@ -155,8 +155,9 @@ button {
 
 /* For Assignment2 - Users & Signin section */
 
-.users, .signin, .signup {
+.signin, .signup, .form-group {
   color: white;
+  font-size: large;
 }
 
 /* For Assignment2 - Sign up section */

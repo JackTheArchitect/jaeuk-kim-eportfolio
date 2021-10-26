@@ -1,2 +1,0 @@
-this text file is for cheching connection between my local git and github
-i hope this time it works

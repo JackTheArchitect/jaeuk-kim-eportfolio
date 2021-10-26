@@ -3,6 +3,7 @@ var router = express.Router();
 
 let inventoryController = require('../controller/inventory');
 
+
 // Connect to our model
 let Inventory = require('../models/inventory');
 
