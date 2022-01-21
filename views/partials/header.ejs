@@ -34,35 +34,16 @@
           <a class="nav-link" href="/"> Home </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about"> About Me </a>
+          <a class="nav-link" href="/about"> About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/projects"> Projects </a>
-        </li>        
+        </li>                
         <li class="nav-item">
-          <a class="nav-link" href="/services"> Services </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contact"> Contact Me </a>
+          <a class="nav-link" href="/contact"> Contact</a>
         </li>
     
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            Business Contacts
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="/inventory/list"> Contact List </a>
-            <a class="dropdown-item" href="/inventory/add"> Add Contact </a>            
-          </div>
-        </li>
-        <li class="nav-item">  
-          <% if (typeof userName == 'string' && userName) { %>
-              <a class="nav-link" href="/users/signout" onclick="return confirm('Are you sure?')">Sign Out (<%= userName %>)</a>
-          <% } else { %>
-              <a class="nav-link" href="/users/signin">Signin</a>
-          <% } %>            
-        </li> 
+        
       </ul>
     </nav> 
     

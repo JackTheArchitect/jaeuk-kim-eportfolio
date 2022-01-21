@@ -9,7 +9,7 @@ var debug = require('debug')('assignment:server');
 var http = require('http');
     // For Assignment2
     // module for authentication
-const configurePassport = require('./config/passport');
+
 
 
 /**
@@ -29,9 +29,7 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-  //For Assignment 2
-  // Create configurePassport app
-const passport = configurePassport();
+  
 
 server.listen(port);
 server.on('error', onError);

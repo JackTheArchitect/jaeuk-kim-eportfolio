@@ -41,11 +41,7 @@ app.use(session({
 let indexRouter = require('../routes/index');
 let aboutRouter = require('../routes/about');
 let projectsRouter = require('../routes/projects');
-let servicesRouter = require('../routes/services');
 let contactRouter = require('../routes/contact');
-    // For Assignment2
-let inventoryRouter = require('../routes/inventory');
-let usersContactRouter = require('../routes/users');
 
 
 
@@ -74,11 +70,8 @@ app.use(passport.session());
 app.use('/', indexRouter);
 app.use('/about', aboutRouter);
 app.use('/projects', projectsRouter);
-app.use('/services', servicesRouter);
 app.use('/contact', contactRouter);
-// For Assignemnt2
-app.use('/inventory', inventoryRouter); 
-app.use('/users', usersContactRouter) // For users section
+
 
 
 
