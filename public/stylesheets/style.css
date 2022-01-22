@@ -86,8 +86,8 @@ button {
 /* Projects Page */
 
 .project_img{
-  width: 400px;
-  height: 350px;
+  width: 200px;
+  height: 150px;
 }
 
 /* Services Page */
@@ -153,16 +153,8 @@ button {
   font-size: x-large;
 }
 
-/* For Assignment2 - Users & Signin section */
-
-.signin, .signup, .form-group {
-  color: white;
-  font-size: large;
-}
-
-/* For Assignment2 - Sign up section */
-.offset-md-3 col-md-3{
-  color: white;
+.container{
+  display: flex;
 }
 
 
