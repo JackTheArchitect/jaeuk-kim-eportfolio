@@ -23,7 +23,8 @@ footer {
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url(../images/background2.png);
+  background-color: black;
+  background-image: url(../images/background4.jpg);  
   background-size: auto;  
 
 }
@@ -86,8 +87,9 @@ button {
 /* Projects Page */
 
 .project_img{
-  width: 200px;
-  height: 150px;
+  width: 300px;
+  height: 200px;
+  padding: 10px;  
 }
 
 /* Services Page */
@@ -111,9 +113,10 @@ button {
 /* Contact Page*/
 
 #my_contact{
-  background-color:darkslateblue;
+  background-color:dark;
   color: orange;
   width: 40%;
+  font-size: x-large;
 }
 
 #submit{
@@ -154,7 +157,16 @@ button {
 }
 
 .container{
-  display: flex;
+  position: relative;
+  margin-left: 0%;
+  display: flex;  
+  font-size: x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:coral;
+}
+
+.hori1,.hori2 {
+  width: 30%
 }
 
 
