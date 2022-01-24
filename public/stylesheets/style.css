@@ -79,6 +79,11 @@ body {
   font-size:large;  
 }
 
+#home-content {
+  display: flex; 
+  justify-content: space-between;
+}
+
 /* Home page */
 
 #mission {
