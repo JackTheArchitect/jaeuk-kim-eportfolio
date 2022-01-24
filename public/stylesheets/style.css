@@ -4,6 +4,19 @@ header {
   color: yellow;
 }
 
+#topbar {
+  background-color: ivory;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align:end
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
 footer {
   color:purple;
   font-size: large;
