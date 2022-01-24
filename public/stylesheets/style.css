@@ -216,3 +216,12 @@ button {
 #my_contact {
   font-size: large;
 }
+
+.odd-row{
+  background-color: rgba(0,0,0,1);      
+}
+
+.even-row{
+  background-color: rgba(70,70,70,.7);    
+}
+
