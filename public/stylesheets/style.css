@@ -17,6 +17,31 @@ header {
   display: inline-block;
 }
 
+a{
+  text-decoration-line: none;
+}
+
+/* visited link */
+a:visited {
+  text-decoration-line: none;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration-line: none;
+}
+
+/* selected link */
+a:active {
+  
+}
+
+#sitename{
+  color: inherit; /* Link color removed */
+}
+
+
+
 footer {
   color:purple;
   font-size: large;
@@ -183,3 +208,6 @@ button {
 }
 
 
+#my_contact {
+  font-size: large;
+}
