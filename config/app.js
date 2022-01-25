@@ -11,20 +11,20 @@ let passport = require('passport');
 
 
 
-// For Assignmnet 2
-//Database setup
-let mongoose = require('mongoose');
-let dbURI = require('./db');
+// // For Assignmnet 2
+// //Database setup
+// let mongoose = require('mongoose');
+// let dbURI = require('./db');
 
-    // Connect to the Database (My Database: JaeukDB)
-mongoose.connect(dbURI.AtlasDB);
+//     // Connect to the Database (My Database: JaeukDB)
+// mongoose.connect(dbURI.AtlasDB);
 
-// For Assignent2
-let mongoDB = mongoose.connection;
-mongoDB.on('error', console.error.bind(console, 'Connection Error:'));
-mongoDB.once('open', ()=>{
-  console.log('Connected to MongoDB...');
-});
+// // For Assignent2
+// let mongoDB = mongoose.connection;
+// mongoDB.on('error', console.error.bind(console, 'Connection Error:'));
+// mongoDB.once('open', ()=>{
+//   console.log('Connected to MongoDB...');
+// });
 
 
 

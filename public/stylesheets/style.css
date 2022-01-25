@@ -225,3 +225,8 @@ button {
   background-color: rgba(70,70,70,.7);    
 }
 
+li {
+  color: gold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
